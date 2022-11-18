@@ -92,7 +92,7 @@
   text-align: center;
   background-color: #b83d51;
 }
-.how__title {
+.how__title, .faq__title {
   font-size: 36px;
   color: transparent; 
   -webkit-text-stroke: 1px #b83d51;
@@ -177,12 +177,144 @@
 .how__menu-img {
   max-width: 300px;
 }
+.how__text {
+  margin-top: 50px;
+  padding: 50px 0px;
+  background-image: url('../img/dark-pattern.webp');
+  color: rgb(119, 119, 119);
+  font-size: 18px;
+}
 
+
+
+.faq {
+  background-color: #b83d51;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+.container {
+}
+.faq__title {
+  width: 100%;
+}
+.faq__list {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 40%;
+  flex-direction: column;
+}
+.faq__list:nth-child(1) {
+  text-align: right;
+}
+.faq__list:nth-child(2) {
+  text-align: left;
+}
+.faq__item-figure-right {
+  margin-left: 20px;
+}
+.faq__item-figure-left {
+  margin-right: 20px;
+}
+.faq__item {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 50%;
+}
+.faq__item-figure {
+  border-radius: 50%;
+  max-width: 80px;
+  max-height: 80px;
+  min-width: 80px;
+  min-height: 80px;
+  background-color: aqua;
+  border: 8px double #b83d51;
+}
+.faq__lists {
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 70px;
+}
+.faq__item-text {
+}
+.faq__item-title {
+  font-size: 26px;
+  color: aqua;
+  font-weight: bold;
+}
+.faq__item-subtitle {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+
+.menu {
+  text-align: center;
+  background-color: #b83d51;
+  padding: 60px 0;
+}
+.container {
+}
+.menu__title {
+  font-size: 28px;
+  display: block;
+  margin-bottom: 20px;
+}
+.menu__subtitle {
+  font-size: 24px;
+}
+.menu__tabs {
+  margin-top: 50px;
+  
+}
+.menu__tabs-item {
+  margin-bottom: 30px;
+}
+.menu__tabs-content {
+}
+.menu__tabs-images {
+  display: flex ;
+  justify-content: space-around;
+}
+.menu__tabs-image {
+  max-width: 305px;
+  margin: 0 20px;
+}
+.b-tab {
+  padding: 20px;
+  display: none;
+}
+
+.b-tab.active {
+  display: block;
+}
+
+.b-nav-tab {
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 18px;
+  color: transparent; 
+  -webkit-text-stroke: 1px #b83d51;
+  color: #b83d51;
+  background-color: aqua;
+  display: inline;
+  font-weight: bold;
+  padding: 5px 20px;
+  border: 8px double #b83d51;
+}
+.b-nav-tab.active {
+  
+  border: 2px double aqua ; 
+}
 
 @keyframes rotateWordsSecond {
      0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
      8% { opacity: 1; height: 60px; }
      19% { opacity: 1; height: 60px; }
-     25% { opacity: 0; height: 60px; }
+     50% { opacity: 0; height: 60px; }
      100% { opacity: 0; }
 }
