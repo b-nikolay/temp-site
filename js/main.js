@@ -28,3 +28,19 @@ function Tabs() {
 }
 
 var connectTabs = new Tabs();
+
+
+let form = document.querySelector('.buy__form');
+
+
+
+$(".buy__form").submit(function() {
+  $.ajax({
+      type: "POST",
+      url: "mail.php",
+      data: $(this).serialize()
+  }).done(function() {
+      window.location = "/thanks";
+  });
+  return false;
+});
