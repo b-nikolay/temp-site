@@ -28,7 +28,7 @@
           </p>
         </div>
         <button class="main__button">
-          <a href="">
+          <a href="#menu">
             МЕНЮ
           </a>
 
@@ -156,7 +156,7 @@
 
       </div>
     </section>
-    <section class="menu">
+    <section class="menu" id="menu">
       <div class="container">
         <h1 class="menu__title">
           НАШЕ <span style="color: aqua;">МЕНЮ</span> 
@@ -169,13 +169,13 @@
         <div class="menu__tabs">
           <ul class="menu__tabs-item">
             <a href="#one-tab" data-tab="one-tab" class="b-nav-tab active">
-              Super Fit
+              Healthy
             </a>
             <a href="#two-tab" data-tab="two-tab" class="b-nav-tab">
-              Express Fit
+              Fit
             </a>
             <a href="#three-tab" data-tab="three-tab" class="b-nav-tab">
-              Fit
+              Super Fit
             </a>
           </ul>
           <div class="menu__tabs-content">
@@ -197,6 +197,113 @@
           </div>
         </div>
 
+    </section>
+    <section class="order">
+      <div class="container">
+        <h1 class="order__title">
+          HEALTHY FOOD 4YOU
+        </h1>
+        <span class="order__subtitle">
+          Выбирайте любое, подходящее для вас <span style="color: aqua;">меню</span> 
+        </span>
+        <div class="order__list">
+          <div class="order__item">
+            <span class="order__item-title">Healthy</span>
+            <p class="order__item-price">1889 руб.</p>
+            <div class="order__item-lists">
+              <p>Тонизируйся комфортно</p>
+              <p>Улучшение пищеварения</p>
+              <p>Пониженная калорийность</p>
+              <p>Полезные жиры</p>
+            </div>
+            <div class="order__item-button">
+              <button class="order__item-btn">
+
+                <a href="#form">Заказать меню</a>
+              </button>
+            </div>
+          </div>
+          <div class="order__item">
+            <span class="order__item-title">Fit</span>
+            <p class="order__item-price">2945 руб.</p>
+            <div class="order__item-lists">
+              <p>Тонизируйся активно</p>
+              <p>Убирает подкожный жир</p>
+              <p>Пониженная калорийность</p>
+              <p>Нормализованные жиры</p>
+            </div>
+            <div class="order__item-button">
+              <button class="order__item-btn">
+
+                <a href="#form">Заказать меню</a>
+              </button>
+            </div>
+          </div>
+          <div class="order__item">
+            <span class="order__item-title">Super Fit</span>
+            <p class="order__item-price">3530 руб.</p>
+            <div class="order__item-lists">
+              <p>Тонизируйся быстро</p>
+              <p>Нормализует тонус</p>
+              <p>Пониженная калорийность</p>
+              <p>Отсутствуют жиры</p>
+            </div>
+            <div class="order__item-button">
+              <button class="order__item-btn">
+
+                <a href="#form">Заказать меню</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="order__text">
+        <h2 class="order__text-title">Польза правильного питания для здоровья</h2>
+        <p>
+          Правильное и полезное питание обеспечивает организм всем необходимым для нормальной работы всех органов и систем.
+          Нормализация питания способствует улучшению пищеварения и излечению заболеваний желудочно-кишечного тракта, печени и
+          поджелудочной железы. Ограничение поступления соли благотворно сказывается на течении гипертонии и заболеваний почек,
+          баланс натрия, калия и кальция необходим для лечения заболеваний сердца. Избыточное потребление животных жиров ведет к
+          ожирению и атеросклерозу, в то время как полиненасыщенные жирные кислоты необходимы для профилактики и лечения этих
+          заболеваний.
+        </p>
+        <button class="order__text-button">
+          <a href="">
+
+            Заказать меню
+          </a>
+        </button>
+      </div>
+    </section>
+    <section class="buy">
+      <div class="container">
+        <h1 class="buy__title">HEALTHY FOOD 4YOU</h1>
+        <span class="buy__subtitle">
+          Закажите прямо сейчас
+        </span>
+        <form action="" class="buy__form">
+          <div class="buy__form-rows">
+            <div class="buy__form-row">
+              <input type="text" name="name" id="name"   placeholder="Ваше имя" required>
+            </div>
+            <div class="buy__form-row">
+              <input type="text" name="tel" id="tel"   placeholder="Телефон" required>
+            </div>
+          </div>
+          <div class="buy__form-select">
+            <h2>Выберите меню</h2>
+            <select>
+              <option>Healthy</option>
+              <option>Fit</option>
+              <option>Super Fit</option>
+            </select>
+          </div>
+          <button class="buy__form-button">
+            Заказать Меню
+          </button>
+        </form>
+        <span class="warning">Отправляя свои контактные данные, вы принимаете <a href="">соглашение об обработке персональных данных</a> </span>
+      </div>
     </section>
   </div>
   <script src="js/main.js"></script>

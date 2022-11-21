@@ -1,3 +1,29 @@
+@font-face {
+  font-family: "Georgia-Regular";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Georgia-Regular"),
+       /* Если не получилось, загрузит woff2 */
+       url("/fonts/GeorgiaRegular.woff2") format("woff2")
+}
+@font-face {
+  font-family: "Georgia-Bold";
+  font-style: normal;
+  font-weight: 700;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Georgia-Bold"),
+       /* Если не получилось, загрузит woff2 */
+       url("/fonts/GeorgiaBold.woff2") format("woff2")
+}
+
+body {
+  font-family: 'Georgia-Regular', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 .wrapper {
   
   color: white;
@@ -92,7 +118,7 @@
   text-align: center;
   background-color: #b83d51;
 }
-.how__title, .faq__title {
+.how__title, .faq__title, .order__title, .buy__title {
   font-size: 36px;
   color: transparent; 
   -webkit-text-stroke: 1px #b83d51;
@@ -310,6 +336,211 @@
   
   border: 2px double aqua ; 
 }
+
+
+.order {
+  background-color: #b83d51;
+  padding-top: 30px;
+  text-align: center;
+}
+.container {
+}
+.order__title {
+}
+.order__subtitle {
+  display: block;
+  font-size: 24px;
+  margin-top: 30px;
+}
+.order__list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.order__item {
+  cursor: pointer;
+  width: 30%;
+  border: 1px solid #a73749;
+  background-color: #b83d51;
+  transition: all .2s ease-in-out;
+}
+.order__item:hover {
+  transform: scale(1.1);
+  z-index: 1;
+  transition: all .2s ease-in-out;
+
+}
+.order__item-title {
+  font-weight: bold;
+  font-size: 28px;
+  padding: 20px 0;
+  display: block;
+}
+.order__item-price {
+  padding: 20px 0;
+  font-size: 38px;
+  color: aqua;
+  background: #cf344e;
+  width: 100%;
+  font-weight: bold;
+}
+.order__item-lists p{
+  
+  padding: 20px 0;
+  font-size: 15px;
+}
+
+.order__item-lists p:not(:last-child) {
+  border-bottom: 1px solid #a73749;
+}
+.order__item-button {
+  padding: 20px 0;
+  
+  background: #cf344e;
+}
+.order__item-btn {
+  width: 50%;
+  padding: 5px 20px;
+  background-color: aqua;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  
+  border: 6px double aqua;
+}
+.order__item-btn:hover {
+  border: 6px double #b83d51;
+  transition: all .2s ease-in-out;
+}
+.order__item-btn a {
+
+  color: black;
+}
+.order__text {
+  margin-top: 50px;
+  padding: 50px 0px;
+  background-image: url('../img/dark-pattern.webp');
+  color: rgb(119, 119, 119);
+  font-size: 18px;
+}
+.order__text p {
+  max-width: 900px;
+  margin: auto;
+}
+.order__text-title {
+  margin-bottom: 20px;
+}
+.order__text-button {
+  margin-top: 30px;
+  font-size: 16px;
+  background: transparent;
+  transition: all .2s ease-in-out;
+}
+
+.order__text-button a {
+
+  padding: 10px 20px;
+  border: 2px solid rgb(119, 119, 119);
+  transition: all .2s ease-in-out;
+  color: rgb(119, 119, 119);
+}
+ .order__text-button a:hover {
+  
+  border: 2px solid white;
+  
+  color: white;
+
+  transition: all .2s ease-in-out;
+}
+
+
+.buy {
+  text-align: center;
+  background-color: #b83d51;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.container {
+}
+.buy__title {
+}
+.buy__subtitle {
+  display: block;
+font-size: 24px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.buy__form {
+}
+.buy__form-rows {
+  display: flex;
+  justify-content: space-between;
+}
+.buy__form-row {
+  width: 100%;
+}
+.buy__form-row:nth-child(1) {
+  margin-right: 40px;
+}
+.buy__form-row input {
+  color: white;
+  padding: 10px;
+  
+  font-size: 16px;
+  background-color: #cf344e;
+}
+.buy__form-row input::placeholder {
+  color: rgb(119, 119, 119);
+}
+.buy__form-select {
+  margin-top: 80px;
+
+}
+.buy__form-select h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.buy__form-select select {
+  width: 100%;
+  background-color: #cf344e;
+  border: 1px solid #a73749;
+  color: white;
+  font-size: 18px;
+  padding: 10px 5px;
+}
+.buy__form-button {
+  background-color: aqua;
+  color: black;
+  padding: 10px 0;
+  width: 100%;
+  margin-top: 20px;
+  
+  transition: all .2s ease-in-out;
+  
+  border: 6px double aqua;
+}
+.buy__form-button:hover {
+
+  border: 6px double #b83d51;
+  transition: all .2s ease-in-out;
+}
+.warning {
+  margin-top: 30px;
+  opacity: 0.5;
+  display: block;
+  font-size: 16px;
+}
+.warning  a {
+  color: white;
+  text-decoration: underline;
+}
+#tel, #name {
+  width: 100%;
+}
+
+
+
 
 @keyframes rotateWordsSecond {
      0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
