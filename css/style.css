@@ -1305,6 +1305,266 @@ margin-left: -8px;
     padding-bottom: 70px;
   }
 }
-@media (max-width:980px) {
-  
+@media (max-width:428px) {
+  .header__btn {
+    display: none;
+
+  }
+  .main__text-title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 104.5%;
+/* identical to box height, or 25px */
+
+
+color: #10002B;
+  }
+  .main__text-subtitle {
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 147%;
+/* or 21px */
+
+text-align: center;
+
+color: #10002B;
+
+  }
+  .square-btn, .rounded-btn {
+    font-size: 16px;
+    
+  }
+  .hero {
+    background-image: url('../img/hero/mobile.png'),url('../img/hero/hero-background.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100% ,cover;
+  background-position: 100px  170px, center;
+    background-position-x: right, center;
+  background-position-x: right, center;
+  background-position-x: 100%, center;
+  background-color: #bcd7df;
+height: 100vh;
+  }
+  .header__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main__text {
+    flex: 0 1 100%;
+    text-align: center;
+    margin-top: 90%;
+  }
+  .main__text-subtitle {
+    margin-top: 21px;
+    margin-bottom: 32px;
+  }
+  .container {
+    padding: 0 10px;
+  }
+  .main__text-btns .header__btn {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    display: block;
+  }
+  .advantages__title, .benefits__title, .conditions__title, .benefits__info-title {
+    font-size: 24px;
+  }
+  .advantages__subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 147%;
+    margin-top: 18px;
+    margin-bottom: 64px;
+    /* or 19px */
+    text-align: center;
+
+    color: #000000;
+  }
+  .advantages__row {
+    flex-direction: column;
+  }
+  .advantages__card {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+  .advantages__card-title, .advantages__card-item {
+    font-size: 14px;
+  }
+  .advantages__card-items {
+    padding-top: 130px;
+  }
+  .advantages__card-item::before {
+    max-width: 23px;
+    max-height: 23px;
+    min-width: 23px;
+    min-height: 23px;
+    background-size: contain;
+    margin-right: 9px;
+    
+  }
+  .benefits__item {
+    margin-right: 20px;
+    padding-bottom: 30px;
+  }
+  .benefits__info-title {
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+  .benefits__item-img {
+    width: 147px;
+    height: 147px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .benefits__item-title {
+    font-size: 24px;
+  }
+  .benefits__item-subtitle {
+    font-size: 14px;
+  }
+  .benefits__info span {
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 147%;
+
+/* or 21px */
+margin: 0 15px;
+text-align: center;
+
+color: #FFFFFF;
+  }
+  .conditions {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+  .conditions__description {
+    margin-top: 0;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 147%;
+
+/* or 21px */
+text-align: center;
+
+color: #000000;
+
+
+  }
+  .banner {
+    padding: 25px 0;
+  }
+  .banner__title {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 147%;
+
+/* or 24px */
+text-align: center;
+
+color: #000000;
+
+
+  }
+  .banner__buttons {
+    margin-top: 35px;
+    justify-content: center;
+  }
+  .banner__button {
+    border-radius: 30px;
+    padding: 15px 15px;
+  }
+  .info__item-number {
+    padding-top: 20px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 147%;
+
+/* or 147px */
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .info__item-title {
+    font-size: 14px;
+  }
+  .info__title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .info {
+    padding-top: 30px;
+  }
+  .info::before {
+    content: '';
+    background-image: url('../img/info/Ellipse-right.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 10px 28px;
+    display: block;
+    width: 39%;
+    height: 40%;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+  }
+  .info::after {
+    display: none;
+    background-image: url('../img/info/Ellipse-left.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 13px -28px;
+    display: block;
+    width: 200px;
+    height: 0px;
+    bottom: 113px;
+    position: absolute;
+    left: -35px;
+    z-index: 1;
+  }
+  .info__subtitle {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 147%;
+
+/* or 29px */
+
+color: #000000;
+  }
+  .info__description span {
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+  }
+  .info__description p {
+    font-size: 10px;
+  }
+  .partners__list {
+
+  }
+  .partners__item {
+    flex: 0 1 40.333%;
+    margin: 0 5px;
+  }
 }
