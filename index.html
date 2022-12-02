@@ -12,7 +12,10 @@
     content="Регистрация ООО и ИП в СПб под ключ — бесплатно | Открыть ООО или ИП в Санкт-Петербурге" />
   <meta property="og:description" content="Бесплатная регистрация ООО и ИП в Санкт-Петербурге" />
   <meta property="og:image" content="assets/img/5740349b-180e-44fb-aa90-2ce74b79c8db-3394912.jpeg" />
-
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
   <link rel="stylesheet" href="css/null.css">
   <link rel="stylesheet" href="css/style.css">
 
@@ -194,7 +197,118 @@
         </div>
       </div>
     </section>
+    <section class="reviews">
+      <div class="">
+        <h2 class="reviews__title">Отзывы наших клиентов</h2>
+        <div class="reviews__slider">
+          <div class="swiper swiper-reviews">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper reviews-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide reviews__slide">
+                <img src="img/clients/1.png" alt="" class="reviews__slide-img">
+                <h3 class="reviews__slide-title">
+                  Виктор Федоров
+                </h3>
+                <span class="reviews__slide-subtitle">
+                  Менеджер по продажам ЗАО «Рыбка»
+                </span>
+                <p class="reviews__slide-description">
+                  Мне реально понравилось, как специалисты этой юридической компании сделали свою работу. После моего обращения уже на следующий день были готовы и поданы все документы для регистрации.
+                </p>
+              </div>
+              <div class="swiper-slide reviews__slide">
+                <img src="img/clients/2.png" alt="" class="reviews__slide-img">
+                <h3 class="reviews__slide-title">
+                  Виктор Федоров
+                </h3>
+                <span class="reviews__slide-subtitle">
+                  Менеджер по продажам ЗАО «Рыбка»
+                </span>
+                <p class="reviews__slide-description">
+                  Мне реально понравилось, как специалисты этой юридической компании сделали свою работу. После моего обращения уже на следующий день были готовы и поданы все документы для регистрации.
+                </p>
+              </div>
+              <div class="swiper-slide reviews__slide">
+                <img src="img/clients/3.png" alt="" class="reviews__slide-img">
+                <h3 class="reviews__slide-title">
+                  Виктор Федоров
+                </h3>
+                <span class="reviews__slide-subtitle">
+                  Менеджер по продажам ЗАО «Рыбка»
+                </span>
+                <p class="reviews__slide-description">
+                  Мне реально понравилось, как специалисты этой юридической компании сделали свою работу. После моего обращения уже на следующий день были готовы и поданы все документы для регистрации.
+                </p>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+              <div class="swiper-button-prev reviews-swiper-button-prev"></div>
+              <div class="swiper-button-next reviews-swiper-button-next"></div>
+            <!-- If we need navigation buttons -->
+          
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="request">
+      <div class="container">
+        <div class="request__row">
+          <div class="request__item">
+            <form action="" class="request__form">
+              <h3 class="request__form-title">Оставьте заявку, мы перезвоним!</h3>
+              <input type="text" class="request__form-input" placeholder="Имя" >
+              <input type="text" class="request__form-input" placeholder="Телефон">
+              <div class="checkbox-row">
+                <input type="checkbox" name="polit" id="polit" style="display: none;">
+                <label for="polit">
+                  <span>Согласен с обработкой персональных данных</span> 
+    
+                </label>
+              </div>
+              <button class="request__form-btn square-btn">Оставить заявку</button>
+            </form>
+          </div>
+
+          <div class="request__item">
+            <div class="request__img">
+              <img src="img/form-img.png" alt="" class="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <h3 class="footer__title">Контакты</h3>
+        <img src="img/hero/logo-footer.svg" alt="" class="footer__logo">
+        <div class="footer__row">
+          <div class="footer__item">
+            <span class="footer__item-title">
+              Адрес
+            </span>
+            <span class="footer__item-description">
+              м. Пл. Александра Невскогоул. Александра Невского, 9, оф. 303, Санкт-Петербург, 191167
+            </span>
+          </div>
+          <div class="footer__item">
+            <span class="footer__item-title">Время работы</span>
+            <span class="footer__item-description">
+              Пн-Пт: 10:00-19:00Сб: 10:00-19:00Вс: выходной
+            </span>
+          </div>
+          <div class="footer__item">
+            <a href="tel:+79219652212" class="footer__item-title">+7(921) 965-2212</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
