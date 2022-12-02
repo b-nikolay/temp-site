@@ -9,12 +9,20 @@ const swiperReviews = new Swiper('.swiper-reviews', {
     prevEl: '.reviews-swiper-button-prev',
     nextEl: '.reviews-swiper-button-next',
   },
-
-  420: {
-    pagination: {
-      el: '.swiper-pagination',
+  breakpoints: {
+    700: {
+      
     },
+    160: {
+      pagination: {
+        el: '.swiper-pagination',
+      },  // If we need pagination
+      slidesPerView: 1,      
+      spaceBetween: 60,
+    }
   }
+
+
 
 });
 const swiperBenefits = new Swiper('.swiper-benefits', {
@@ -30,7 +38,7 @@ const swiperBenefits = new Swiper('.swiper-benefits', {
   // },
   breakpoints: {
     1116: {
-      slidesPerView: 1,
+      slidesPerView: 3,
       
     },
     420: {
