@@ -1553,6 +1553,9 @@ line-height: 147%;
 
 color: #000000;
   }
+  .header__btn-1 {
+    display: block !important;
+  }
   .info__description span {
     font-size: 14px;
     margin-top: 12px;
