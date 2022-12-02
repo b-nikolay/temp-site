@@ -11,7 +11,8 @@ const swiperReviews = new Swiper('.swiper-reviews', {
   },
   breakpoints: {
     700: {
-      
+      slidesPerView: 2,      
+      spaceBetween: 160,
     },
     160: {
       pagination: {
@@ -41,7 +42,7 @@ const swiperBenefits = new Swiper('.swiper-benefits', {
       slidesPerView: 3,
       
     },
-    420: {
+    100: {
       pagination: {
         el: '.swiper-pagination',
       },
