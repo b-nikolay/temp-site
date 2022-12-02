@@ -49,7 +49,13 @@
             <span class="main__text-subtitle">Быстро и без проволочек зарегистрируем  ООО или ИП, откроем расчетный счет
               в банке и подберем оптимальный тариф.
             </span>
-            <button class="main__text-btn square-btn">Оставить заявку</button>
+            <div class="main__text-btns">
+              <button class="main__text-btn square-btn">Оставить заявку</button>
+              <button style="display: none;" class="header__btn rounded-btn">
+                Заказать звонок
+              </button>
+            </div>
+
           </div>
           <div class="main__image">
             <img src="img/hero/hero-girl.png" alt="">
@@ -94,34 +100,74 @@
       </div>
     </section>
     <section class="benefits">
+      
       <h2 class="benefits__title">Воспользуйтесь нашими приемуществами</h2>
-      <span class="benefits__subtitle">БЕСПЛАТНО</span>
-      <div class="benefits__row">
-        <div class="benefits__item">
-          <img src="img/benefit/1.png" alt="" class="benefits__item-img">
-          <h3 class="benefits__item-title">Без госпошлины</h3>
-          <span class="benefits__item-subtitle">
-            Сэкономьте до 4000 ₽ при онлайн-регистрации
-          </span>
-        </div>
-        <div class="benefits__item">
-          <img src="img/benefit/2.png" alt="" class="benefits__item-img">
-          <h3 class="benefits__item-title">Сделаем все за вас</h3>
-          <span class="benefits__item-subtitle">
-            Подготовим пакет документов, проверим и отправим в ФНС
+      <span class="benefits__subtitle">БЕСПЛАТНО</span>   
+      <div class="container">
+        <div class="benefits__row">
+          <div class="swiper swiper-benefits">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide-benefits">
+                <div class="benefits__item">
+                  <img src="img/benefit/1.png" alt="" class="benefits__item-img">
+                  <h3 class="benefits__item-title">Без госпошлины</h3>
+                  <span class="benefits__item-subtitle">
+                    Сэкономьте до 4000 ₽ при онлайн-регистрации
+                  </span>
+                </div>
+              </div>
+              <div class="swiper-slide slide-benefits">
+                <div class="benefits__item">
+                  <img src="img/benefit/2.png" alt="" class="benefits__item-img">
+                  <h3 class="benefits__item-title">Сделаем все за вас
+                  </h3>
+                  <span class="benefits__item-subtitle">
+                    Подготовим пакет документов, проверим и отправим в ФНС
 
-          </span>
-        </div>
-        <div class="benefits__item">
-          <img src="img/benefit/3.png" alt="" class="benefits__item-img">
-          <h3 class="benefits__item-title">Без визита в ФНС
-          </h3>
-          <span class="benefits__item-subtitle">
-            Подайте заявку прямо сейчас, не выходя из дома
+                  </span>
+                </div>
+              </div>
+              <div class="swiper-slide slide-benefits">
+                <div class="benefits__item">
+                  <img src="img/benefit/3.png" alt="" class="benefits__item-img">
+                  <h3 class="benefits__item-title">Без визита в ФНС
+                  </h3>
+                  <span class="benefits__item-subtitle">
+                    Подайте заявку прямо сейчас, не выходя из дома
 
-          </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination benefits-swiper-pagination"></div>
+          </div>
+          <!-- <div class="benefits__item">
+            <img src="img/benefit/1.png" alt="" class="benefits__item-img">
+            <h3 class="benefits__item-title">Без госпошлины</h3>
+            <span class="benefits__item-subtitle">
+              Сэкономьте до 4000 ₽ при онлайн-регистрации
+            </span>
+          </div>
+          <div class="benefits__item">
+            <img src="img/benefit/2.png" alt="" class="benefits__item-img">
+            <h3 class="benefits__item-title">Сделаем все за вас</h3>
+            <span class="benefits__item-subtitle">
+              Подготовим пакет документов, проверим и отправим в ФНС
+  
+            </span>
+          </div>
+          <div class="benefits__item">
+            <img src="img/benefit/3.png" alt="" class="benefits__item-img">
+            <h3 class="benefits__item-title">Без визита в ФНС
+            </h3>
+            <span class="benefits__item-subtitle">
+              Подайте заявку прямо сейчас, не выходя из дома
+  
+            </span>
+          </div> -->
         </div>
       </div>
+
       <div class="benefits__info">
         <h2 class="benefits__info-title">Почему бесплатно?</h2>
         <p class="benefits__info-description">
@@ -273,9 +319,9 @@
           </div>
 
           <div class="request__item">
-            <div class="request__img">
+            <!-- <div class="request__img">
               <img src="img/form-img.png" alt="" class="">
-            </div>
+            </div> -->
           </div>
         </div>
 

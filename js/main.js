@@ -17,3 +17,29 @@ const swiperReviews = new Swiper('.swiper-reviews', {
   }
 
 });
+const swiperBenefits = new Swiper('.swiper-benefits', {
+  // Optional parameters
+
+  // If we need pagination
+  slidesPerView: 3,
+  spaceBetween: 20,      
+  // Navigation arrows
+  // navigation: {
+  //   prevEl: '.benefits-swiper-button-prev',
+  //   nextEl: '.benefits-swiper-button-next',
+  // },
+  breakpoints: {
+    1116: {
+      slidesPerView: 1,
+      
+    },
+    420: {
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      slidesPerView: 1,
+    }
+  }
+
+
+});
