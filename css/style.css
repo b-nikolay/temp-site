@@ -1305,7 +1305,7 @@ margin-left: -8px;
     padding-bottom: 70px;
   }
 }
-@media (max-width:428px) {
+@media (max-width:528px) {
   .header__btn {
     display: none;
 
