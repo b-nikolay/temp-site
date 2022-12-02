@@ -1666,7 +1666,7 @@ color: #000000;
 }
 
 
-@media (max-width: 393px) {
+@media (max-width: 419px) {
   .info__item {
     flex: 0 1 45%;
   }
@@ -1675,5 +1675,17 @@ color: #000000;
   }
   .info__item:last-child {
     flex: 1 0 50%;
+  }
+  .main__text-subtitle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .header {
+    padding-top: 15px;
+  }
+  .main__text {
+    flex: 0 1 100%;
+    text-align: center;
+    margin-top: 115%;
   }
 }
