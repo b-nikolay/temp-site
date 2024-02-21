@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.header {
+    padding: 30px 0px;
+    border-bottom: 1px solid #515151;
+}
+.header .container   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__logo img{
+    width: 50px;
+}
+.container {
+    max-width: 1400px;
+    padding: 0 20px;
+    margin: auto;
+}
+.header__logo {
+    margin-right: auto;
+}
+.header__title {
+    font-size: 30px;
+    text-align: center;
+    margin-right: auto;
+}
+.museum {
+}
+.museum__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.museum__item {
+    flex: 0 1 30%;
+    height: 404px;
+    margin-top: 50px;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.museum__item-img {
+    width: 100%;
+    object-fit: cover;
+    height: 280px;
+}
+.museum__item-info {
+    display: inline-block;
+    color: #515151;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.museum__item-title {
+    color: #000;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.museum__item-btn {
+    position: absolute;
+  top: auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ec3616;
+}
+
+.btn {
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #ec3616;
+}
+
+
+.item {
+}
+.container {
+}
+.item__title {
+    text-align: center;
+  font-size: 35px;
+  margin-top: 50px;
+}
+.item__info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.item__img  {
+}
+.item__img img {
+    max-width: 800px;
+    max-height: 600px;
+    width: 800px;
+    height: 600px;
+    object-fit: cover;
+}
+.item__info-description {
+    margin-left: 30px;
+}
+.item__info-text {
+    font-size: 22px;
+
+}
+.item__info-btn {
+}
+.btn {
+    color: #fff;
+}
+
+
+
+.item__form {
+    display: flex;
+    flex-direction: column;
+}
+.item__input {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+.persons {
+}
+.date {
+}
+.item__info-btn {
+}
+.btn {
+}
