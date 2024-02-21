@@ -35,6 +35,7 @@
 
 
 
+
                     <form class="item__form">
                         <label>
                             <input type="email" name="email" required class="item__input" placeholder="Your email">
@@ -42,18 +43,16 @@
                         <label>
                             <input type="text" required class="persons item__input" name="persons " placeholder="Number of persons">
                         </label>
-                        <label>
-                            <input type="date" class="date item__input" name="date"  placeholder="Date" >
-                        </label>
-                        <!-- <label>
-                          <input type="text" name="checkin" id="demo-12_1" class="calendar__item-subtitle form-control form-control-sm">
-                          <input type="text" name="checkout" id="demo-12_2" class="calendar__item-subtitle form-control form-control-sm">
+                        <label class="datepicker">
                             <div class="label__text">
-                                Даты заезда и выезда
+                                Datepicker
                             </div>
-                        </label> -->
+                            
+                            <input type="date" class="date item__input" name="date"   placeholder="Date"> 
+                        </label>
                         <button class="item__info-btn btn">Booking</button>
                     </form>
+
 
 
                 </div>
@@ -68,5 +67,7 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>

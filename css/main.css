@@ -172,6 +172,13 @@ body, html {
     display: flex;
     align-items: center;
   }
+  .label__text {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .datepicker .item__input {
+    margin-top: 5px;
+  }
 @media(max-width:900px) {
     .museum__item {
         flex: 1 1 100%;
