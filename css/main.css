@@ -19,7 +19,7 @@ body {
 }
 .container {
     max-width: 1400px;
-    padding: 0 20px;
+    padding: 0 10px;
     margin: auto;
 }
 .header__logo {
@@ -71,7 +71,7 @@ body {
     padding: 10px 15px;
     font-size: 20px;
     font-weight: 500;
-    color: #000;
+    color: #fff;
     margin: auto;
     margin-top: 20px;
     width: 100%;
@@ -147,4 +147,27 @@ body {
 .item__info-btn {
 }
 .btn {
+}
+@media(max-width:900px) {
+    .museum__item {
+        flex: 1 1 100%;
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .item__info {
+        flex-direction: column;
+    }
+    .item__img img {
+        width: 100%;
+        height: auto;
+    }
+    .item__info-description {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .item__title {
+        font-size: 30px;
+    }
 }
