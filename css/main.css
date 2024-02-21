@@ -144,7 +144,7 @@ body, html {
 }
 .item__input {
     margin-top: 20px;
-    border-radius: 5px;
+    border-radius: 5px !important;
     width: 100%;
     padding: 10px 20px;
     border: 1px solid black;
